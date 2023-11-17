@@ -28,6 +28,7 @@ overflow-x: hidden;
   height: 100%;
   background-color: rgb(255, 255, 255);
   left: 50%;
+  display: block;
 }
 
 
@@ -50,4 +51,16 @@ overflow-x: hidden;
   100% {
     transform: translateX(-100px);
   }
+}
+@media only screen and (max-width: 600px) {
+  .v::before{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    left: 50%;
+    display: none;
+  }
+  
 }
