@@ -30,3 +30,24 @@ overflow-x: hidden;
   left: 50%;
 }
 
+
+
+.slide-track {
+  display: flex;
+  gap: 100px;
+
+
+
+  animation: scroll 2s linear infinite;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(-100px);
+  }
+}
