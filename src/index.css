@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+overflow-x: hidden;
+}
 @keyframes rotateAnimation {
   0% {
     transform: rotate(0deg);
@@ -16,6 +19,7 @@
 
 .rotate {
   animation: rotateAnimation 2s linear infinite; /* 6s duration, linear timing, infinite loop */
+
 }
 .v::before{
   content: '';
@@ -25,3 +29,4 @@
   background-color: rgb(255, 255, 255);
   left: 50%;
 }
+
