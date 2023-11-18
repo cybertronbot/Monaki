@@ -1,3 +1,6 @@
+body{
+  background-color: black;
+}
 @font-face {
   font-family: OTF Glusp;
   src: url(../public/OTF®\ Glusp.ttf);
