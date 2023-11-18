@@ -19,7 +19,7 @@ function App() {
       <TopCollection />
       <Footer/>
       
-      <Nft/>
+     
     </div>
   );
 }
