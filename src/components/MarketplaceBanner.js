@@ -10,6 +10,51 @@ function MarketplaceBanner() {
           <li className="slide">
             <h4 className="xl:text-[32px] text-[28px] monument-ultra w-[400px] ">Our Marketplace</h4>
           </li>
+          <li className="slide">
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra w-[400px] ">Our Marketplace</h4>
+          </li>
+          <li className="slide">
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra w-[400px] ">Our Marketplace</h4>
+          </li>
+          <li className="slide">
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra w-[400px] ">Our Marketplace</h4>
+          </li>
+          <li className="slide">
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra w-[400px] ">Our Marketplace</h4>
+          </li>
+          <li className="slide">
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra w-[400px] ">Our Marketplace</h4>
+          </li>
+          <li className="slide">
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra w-[400px] ">Our Marketplace</h4>
+          </li>
+          <li className="slide">
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra w-[400px] ">Our Marketplace</h4>
+          </li>
+          <li className="slide">
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra w-[400px] ">Our Marketplace</h4>
+          </li>
+          <li className="slide">
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra w-[400px] ">Our Marketplace</h4>
+          </li>
+          <li className="slide">
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra w-[400px] ">Our Marketplace</h4>
+          </li>
+          <li className="slide">
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra w-[400px] ">Our Marketplace</h4>
+          </li>
+          <li className="slide">
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra w-[400px] ">Our Marketplace</h4>
+          </li>
+          <li className="slide">
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra w-[400px] ">Our Marketplace</h4>
+          </li>
+          <li className="slide">
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra w-[400px] ">Our Marketplace</h4>
+          </li>
+          <li className="slide">
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra w-[400px] ">Our Marketplace</h4>
+          </li>
           
           
         
