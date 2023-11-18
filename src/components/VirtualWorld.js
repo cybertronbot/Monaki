@@ -38,7 +38,7 @@ function VirtualWorld() {
             Rare <br /> Virtual World
           </h2>
           <h5 className="monument-ultra text-[18px]">Owned By OXOJ</h5>
-          <p className="monument-ultra xl:w-[561px] text-sm pt-5 xl:pt-[62px]">
+          <p className="monument-ultra xl:w-[561px] text-sm pt-5 xl:pt-[62px] pb-10 xl:pb-10">
             A NEW WAVE OF COLLECTIBLES IS ABOUT TO HIT THE ETHEREUM BLOCKCHAIN.
             A SET OF 3.333 UNIQUE COLLECTABLES, THE ADDITION TO YOUR NFT
             COLLECTION YOUVE BEEN WAITING FOR.
