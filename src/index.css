@@ -28,6 +28,15 @@
   left: 50%;
   display: block;
 }
+.nav::before{
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  left: 10%;
+  display: block;
+}
 
 .slider {
   height: 100%;
@@ -62,6 +71,15 @@
 }
 @media only screen and (max-width: 600px) {
   .v::before{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    left: 50%;
+    display: none;
+  }
+  .nav::before{
     content: '';
     position: absolute;
     width: 1px;
