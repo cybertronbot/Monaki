@@ -11,7 +11,7 @@ function Hero() {
       <Navbar />
       <div className="">
         <div className="">
-          <div className="flex justify-between h-[calc(100vh-72px-70px)]  xl:flex-row flex-col items-center xl:gap-0 gap-5 border-t-[1px] border-b-[1px] v relative  border-[#fff] px-4  xl:px-14  w-full">
+          <div className="flex justify-between h-[calc(100vh-72px-70px)]  md:flex-row flex-col items-center xl:gap-0 gap-5 border-t-[1px] border-b-[1px] v relative  border-[#fff] px-4  xl:px-14  w-full">
             <div className="flex flex-1 flex-col  border-[#fff]">
               <h1 className="text-white otf 2xl:text-[85px] xl:text-[70px] text-[40px] leading-[50px] xl:leading-[85px] 2xl:leading-[110px] xl:mt-0 mt-14">
                 Virtual <br /> world
@@ -22,8 +22,8 @@ function Hero() {
               </h4>
             </div>
             <div className="flex justify-center  flex-1  w-[100%] items-center pt-6">
-              <img src={hero} className="z-10 absolute  bottom-0 xl:w-[50%] w-full" alt="hero" />
-              <img src={mask} className="absolute bottom-0  rotate " alt="mask" />
+              <img src={hero} className="z-10 absolute  bottom-0 md:w-[50%] w-full" alt="hero" />
+              <img src={mask} className="absolute bottom-0  rotate md:w-[40%] " alt="mask" />
             </div>
           </div>
         </div>

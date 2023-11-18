@@ -7,7 +7,7 @@ function Navbar() {
         <div className="">
           <h5 className="text-white text-sm monument-normal">Monaki</h5>
         </div>
-        <nav className="xl:flex hidden">
+        <nav className="md:flex hidden">
           <ul className="flex gap-[54px] items-center text-white text-sm monument-normal">
             <li>HOME</li>
             <li>GALLERY</li>
