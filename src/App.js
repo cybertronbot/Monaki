@@ -6,6 +6,7 @@ import TopCollection from "./components/TopCollection";
 import VirtualWorld from "./components/VirtualWorld";
 import Footer from "./components/Footer";
 import LiveTimer from "./components/LiveTimer";
+import Nft from "./components/Nft";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
 
       <TopCollection />
       <Footer/>
-      <LiveTimer/>
+      
+      <Nft/>
     </div>
   );
 }
