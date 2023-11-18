@@ -1,5 +1,6 @@
 body{
   background-color: black;
+  overflow-x: hidden;
 }
 @font-face {
   font-family: OTF Glusp;
