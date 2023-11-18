@@ -33,7 +33,7 @@ function VirtualWorld() {
             </div>
           </div>
         </div>
-        <div className="flex flex-1 flex-col pl-4 xl:pl-12">
+        <div className="flex flex-1 flex-col xl:pl-12">
           <h5 className="monument-ultra text-[18px]">December 14, 2022</h5>
           <h2 className="otf xl:text-5xl text-2xl text-[#7843E8] xl:pt-[20px] pb-4 xl:pb-7">
             Rare <br /> Virtual World
