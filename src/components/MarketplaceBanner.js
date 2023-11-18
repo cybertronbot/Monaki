@@ -3,7 +3,7 @@ import React from 'react'
 function MarketplaceBanner() {
   return (
     <div className='w-[100%] h-[100%] flex cursor-pointer overflow-hidden'>
-       <div className="slider">
+       <div className="slider border-b-[1px] border-t-[1px] border-[#fff]">
         <ul className="slide-track text-white">
        
           

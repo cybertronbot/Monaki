@@ -3,7 +3,7 @@ import React from "react";
 function Navbar() {
   return (
     <div>
-      <div className="xl:px-10 px-4 xl:h-[77px] relative nav h-[60px] flex justify-between items-center ">
+      <div className="xl:px-10 px-4 xl:h-[77px] border-t-[1px] border-[#fff] relative nav h-[60px] flex justify-between items-center ">
         <div className="">
           <h5 className="text-white text-sm monument-normal">Monaki</h5>
         </div>
