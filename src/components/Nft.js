@@ -27,9 +27,9 @@ const Nft = () => {
               dragConstraints={{ right: 0, left: -width }}
               whileTap={{ cursor: "grabbing" }}
             >
-              <ul className="flex w-[900px] gap-10">
+              <ul className="flex  gap-10">
                 <li className="">
-                  <div className="w-[100%]">
+                  <div className="w-[375px]">
                     <div className="p-[20px] w-full bg-[#FFF89F]  xl:mx-0 rounded-lg shadow-[8px_8px_0_0_#000]">
                       <div className="pb-[26px] flex justify-between xl:flex-row flex-col items-start xl:items-center">
                         <img src={people} />
@@ -60,7 +60,7 @@ const Nft = () => {
                   </div>
                 </li>
                 <li className="">
-                  <div className="w-[100%]">
+                  <div className="w-[375px]">
                     <div className="p-[20px] w-full bg-[#FFF89F]  xl:mx-0 rounded-lg shadow-[8px_8px_0_0_#000]">
                       <div className="pb-[26px] flex justify-between xl:flex-row flex-col items-start xl:items-center">
                         <img src={people} />
