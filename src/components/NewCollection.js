@@ -6,10 +6,10 @@ import col1 from "../../src/assets/col1.png";
 
 function NewCollection() {
   return (
-    <div className="bg-[#7843E8] px-14 py-10">
-      <div className="flex justify-between items-center">
+    <div className="bg-[#7843E8] xl:px-14 px-4 py-10">
+      <div className="flex xl:flex-row flex-col justify-between items-center">
      
-        <div className="flex flex-1 items-center gap-[20px]">
+        <div className="flex flex-1 xl:flex-row flex-col items-center gap-[20px]">
           <img src={col} />
           <div className="flex flex-col ">
             <h4 className="text-[32px] text-white otf">KABE</h4>
@@ -22,7 +22,7 @@ function NewCollection() {
             </p>
           </div>
         </div>
-        <div className="flex flex-1 justify-end items-center gap-[20px]">
+        <div className="flex xl:flex-row flex-col flex-1 justify-end items-center gap-[20px]">
           <img src={col1} />
           <div className="flex flex-col ">
             <h4 className="text-[32px] text-white otf">KABE</h4>
