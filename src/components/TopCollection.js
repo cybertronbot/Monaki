@@ -2,73 +2,15 @@ import React from 'react'
 
 function TopCollection() {
   return (
-    <div>
-        <div className="grid h-[70px]  items-center  border-b-[1px] border-[#fff]">
+    <div className='w-[100%] h-[100%] flex cursor-pointer overflow-hidden '>
+        <div className="">
         <ul className="slide-track text-white">
        
           
           <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[400px]">Top Collection</h4>
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra ">Top Collection</h4>
           </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[400px]">Top Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Top Collection</h4>
-          </li>
-          
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Top Collection</h4>
-          </li>
-          
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[300px]">Top Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[300px]">Top Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[300px]">Top Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[300px]">Top Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[300px]">Top Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[300px]">Top Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[300px]">Top Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[300px]">Top Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[300px]">Top Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[300px]">Top Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[300px]">Top Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[300px]">Top Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[300px]">Top Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[300px]">Top Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[300px]">Top Collection</h4>
-          </li>
-          
-        
-          
+         
         
         </ul>
       </div>

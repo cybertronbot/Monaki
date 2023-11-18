@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-overflow-x: hidden;
-}
+
 @keyframes rotateAnimation {
   0% {
     transform: rotate(0deg);
@@ -31,11 +29,17 @@ overflow-x: hidden;
   display: block;
 }
 
-
+.slider {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  overflow-x: hidden;
+  width: 100%;
+  overflow-x: hidden;
+}
 
 .slide-track {
   display: flex;
-  gap: 100px;
 
 
 
@@ -48,6 +52,13 @@ overflow-x: hidden;
   100% {
     transform: translateX(calc(-390px * 6));
   }
+}
+.slide {
+  width: 390px;
+  height: 100%;
+
+  padding: 15px;
+  
 }
 @media only screen and (max-width: 600px) {
   .v::before{

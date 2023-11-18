@@ -5,6 +5,7 @@ body{
 @font-face {
   font-family: OTF Glusp;
   src: url(../public/OTF®\ Glusp.ttf);
+  font-display: block;
 }
 .otf{
   font-family: OTF Glusp;
@@ -12,6 +13,7 @@ body{
 @font-face {
   font-family: Monumnet;
   src: url(../public/MonumentExtended-Regular.otf);
+  font-display: block;
 }
 .monument-normal{
   font-family: Monumnet;
@@ -19,6 +21,7 @@ body{
 @font-face {
   font-family: Monumnetultra;
   src: url(../public/MonumentExtended-Ultrabold.otf);
+  font-display: block;
 }
 .monument-ultra{
   font-family: Monumnetultra;

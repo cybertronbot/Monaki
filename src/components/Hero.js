@@ -28,78 +28,56 @@ function Hero() {
           </div>
         </div>
       </div>
+      <div className="w-[100%] h-[100%] flex cursor-pointer overflow-hidden">
+
+     
       <div className="grid h-[70px] items-center ">
         <ul className="slide-track text-white">
           <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra ">Our Collection</h4>
           </li>
           <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra ">Our Collection</h4>
           </li>
           <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra ">Our Collection</h4>
           </li>
           <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra ">Our Collection</h4>
           </li>
           <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra ">Our Collection</h4>
           </li>
           <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra ">Our Collection</h4>
           </li>
           <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra ">Our Collection</h4>
           </li>
           <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra ">Our Collection</h4>
           </li>
           <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra ">Our Collection</h4>
           </li>
           <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra ">Our Collection</h4>
           </li>
           <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra ">Our Collection</h4>
           </li>
           <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra ">Our Collection</h4>
           </li>
           <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra ">Our Collection</h4>
           </li>
           <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
+            <h4 className="xl:text-[32px] text-[28px] monument-ultra ">Our Collection</h4>
           </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
-          </li>
-          <li className="slide">
-            <h4 className="text-[32px] monument-ultra w-[350px]">Our Collection</h4>
-          </li>
+         
         </ul>
+      </div>
       </div>
     </div>
   );
