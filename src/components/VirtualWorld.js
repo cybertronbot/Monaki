@@ -4,9 +4,9 @@ import people from "../assets/people.png";
 import nft1 from "../assets/NFT1.png";
 function VirtualWorld() {
   return (
-    <div className="xl:px-16 bg-[#FFF253] ">
+    <div className="xl:px-16 bg-[#FFF253] px-4">
       <div className="flex xl:flex-row flex-col items-center relative">
-        <div className="flex flex-1 border-r-[1px] border-[#000] py-10">
+        <div className="flex flex-1 xl:border-r-[1px] border-[#000] py-10">
           <div className="p-[20px] bg-[#FFF89F]  xl:mx-0 rounded-lg shadow-[8px_8px_0_0_#000]">
             <div className="pb-[26px] flex justify-between xl:flex-row flex-col items-start xl:items-center">
               <img src={people} />
