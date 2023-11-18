@@ -44,8 +44,8 @@ function VirtualWorld() {
             COLLECTION YOUVE BEEN WAITING FOR.
           </p>
         </div>
-        <div className="-right-12 absolute bottom-0">
-          <img className="sm:flex hidden" src={nft1} />
+        <div className="xl:-right-12 2xl:-right-32 absolute bottom-0">
+          <img className="sm:flex hidden " src={nft1} />
         </div>
       </div>
     </div>

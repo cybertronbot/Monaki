@@ -10,7 +10,7 @@ import Nft from "./components/Nft";
 
 function App() {
   return (
-    <div className="bg-black ">
+    <div className="bg-black max-w-[1440px] mx-auto ">
       <Hero />
       <NewCollection />
       <MarketplaceBanner />
