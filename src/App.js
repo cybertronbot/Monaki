@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="bg-black ">
+    <div className="bg-black max-w-[1440px] mx-auto ">
       <Hero />
       <NewCollection />
       <MarketplaceBanner />
