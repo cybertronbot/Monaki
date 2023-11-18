@@ -5,6 +5,7 @@ import NewCollection from "./components/NewCollection";
 import TopCollection from "./components/TopCollection";
 import VirtualWorld from "./components/VirtualWorld";
 import Footer from "./components/Footer";
+import LiveTimer from "./components/LiveTimer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
 
       <TopCollection />
       <Footer/>
+      <LiveTimer/>
     </div>
   );
 }

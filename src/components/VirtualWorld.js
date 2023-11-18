@@ -2,6 +2,7 @@ import React from "react";
 import nft from "../assets/nft.png";
 import people from "../assets/people.png";
 import nft1 from "../assets/NFT1.png";
+import LiveTimer from "./LiveTimer";
 function VirtualWorld() {
   return (
     <div className="xl:px-16 bg-[#FFF253] px-4">
@@ -12,15 +13,13 @@ function VirtualWorld() {
               <img src={people} />
               <div className="flex flex-col gap-2">
                 <h3 className="text-[18px] monument-ultra">Remaining Time</h3>
-                <h3 className="text-[22px] monument-ultra text-[#7843E8]">
-                  09H : 11M : 07s
-                </h3>
+                <LiveTimer />
               </div>
             </div>
             <div className="bg-black pt-10 xl:pr-[30px] pr-4 rounded-[21px] ">
               <img src={nft} />
             </div>
-            <div className="pt-[20px] flex xl:flex-row flex-col justify-between items-center">
+            <div className="pt-[20px] flex xl:flex-row flex-col justify-between xl:items-center">
               <div className="flex flex-col gap-2">
                 <h3 className="text-[18px] monument-ultra">Current Bid</h3>
                 <h3 className="text-[40px] monument-ultra text-[#7843E8]">
@@ -44,11 +43,10 @@ function VirtualWorld() {
             A SET OF 3.333 UNIQUE COLLECTABLES, THE ADDITION TO YOUR NFT
             COLLECTION YOUVE BEEN WAITING FOR.
           </p>
-          
         </div>
         <div className="-right-12 absolute bottom-0">
-            <img className="sm:flex hidden" src={nft1} />
-          </div>
+          <img className="sm:flex hidden" src={nft1} />
+        </div>
       </div>
     </div>
   );
