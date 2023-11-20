@@ -5,10 +5,10 @@ import nft1 from "../assets/NFT1.png";
 import LiveTimer from "./LiveTimer";
 function VirtualWorld() {
   return (
-    <div className="xl:px-16  bg-[#FFF253] px-4">
+    <div className="xl:px-14   bg-[#FFF253] px-4">
       <div className="flex md:flex-row flex-col items-center relative">
-        <div className="flex flex-1 md:border-r-[1px] border-[#000] py-10">
-          <div className="p-[20px] bg-[#FFF89F]  xl:mx-0 mx-5 rounded-lg shadow-[8px_8px_0_0_#000]">
+        <div className="flex flex-1  md:border-r-[1px] border-[#000] py-10">
+          <div className="p-[20px] bg-[#FFF89F]   mr-14 rounded-lg shadow-[8px_8px_0_0_#000]">
             <div className="pb-[26px] flex justify-between xl:flex-row flex-col items-start xl:items-center">
               <img src={people} />
               <div className="flex flex-col gap-2">
@@ -17,7 +17,7 @@ function VirtualWorld() {
               </div>
             </div>
             <div className="bg-black pt-10 xl:pr-[30px] pr-4 rounded-[21px] ">
-              <img src={nft} />
+              <img src={nft}  />
             </div>
             <div className="pt-[20px] flex xl:flex-row flex-col justify-between xl:items-center">
               <div className="flex flex-col gap-2">
@@ -44,7 +44,7 @@ function VirtualWorld() {
             COLLECTION YOUVE BEEN WAITING FOR.
           </p>
         </div>
-        <div className="xl:-right-12 2xl:-right-32 md:-right-[282px] absolute bottom-0">
+        <div className="xl:-right-48 2xl:-right-32 md:-right-[282px] absolute bottom-0">
           <img className="sm:flex hidden md:w-[60%] " src={nft1} />
         </div>
       </div>
