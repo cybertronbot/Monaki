@@ -72,6 +72,12 @@
   padding: 15px;
   
 }
+.tran{
+  position :absolute;
+  left:50%;
+  right:50%;
+  transform: translate(-50%,-50%);
+}
 @media only screen and (max-width: 600px) {
   .v::before{
     content: '';

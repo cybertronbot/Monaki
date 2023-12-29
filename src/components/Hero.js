@@ -9,9 +9,9 @@ function Hero() {
   return (
     <div className=" ">
       <Navbar />
-      
+
       <div className="">
-        <div className="">
+        <div className="relative">
           <div className="flex justify-between   md:flex-row flex-col items-center xl:gap-0 gap-5 border-t-[1px] border-b-[1px] v relative  border-[#fff] px-4  xl:px-14  w-full">
             <div className="flex flex-1 flex-col  border-[#fff]">
               <h1 className="text-white otf 2xl:text-[85px] xl:text-[70px] text-[40px] leading-[50px] xl:leading-[85px] 2xl:leading-[110px] xl:mt-0 mt-14">
@@ -23,13 +23,21 @@ function Hero() {
               </h4>
             </div>
             <div className="flex justify-center  flex-1 relative w-[100%] items-center">
-              <img src={hero} className="z-10 " alt="hero" />
+              <img src={hero} className="z-10  " alt="hero" />
               <img
                 src={mask}
                 className="absolute rotate w-[536px] "
                 alt="mask"
               />
             </div>
+          </div>
+          {/* <div className="tran">
+            <div className="">
+              <img src={bottom} alt="bottom" />
+            </div>
+          </div> */}
+          <div className="flex justify-center relative w-[100%] items-center">
+            <img src={bottom} className="absolute -top-40" alt="bottom" />
           </div>
         </div>
       </div>
@@ -109,7 +117,6 @@ function Hero() {
           </ul>
         </div>
       </div>
-     
     </div>
   );
 }
