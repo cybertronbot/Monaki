@@ -36,7 +36,7 @@ function Hero() {
               <img src={bottom} alt="bottom" />
             </div>
           </div> */}
-          <div className="flex justify-center relative w-[100%] items-center">
+          <div className="sm:flex hidden justify-center relative w-[100%] items-center">
             <img src={bottom} className="absolute -top-40" alt="bottom" />
           </div>
         </div>
