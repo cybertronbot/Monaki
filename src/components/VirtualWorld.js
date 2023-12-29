@@ -8,7 +8,7 @@ function VirtualWorld() {
     <div className="xl:px-14   bg-[#FFF253] px-4">
       <div className="flex md:flex-row flex-col items-center relative">
         <div className="flex flex-1  md:border-r-[1px] border-[#000] py-10">
-          <div className="p-[20px] bg-[#FFF89F]   mr-14 rounded-lg shadow-[8px_8px_0_0_#000]">
+          <div className="p-[20px] bg-[#FFF89F]   sm:mr-14 rounded-lg shadow-[8px_8px_0_0_#000]">
             <div className="pb-[26px] flex justify-between xl:flex-row flex-col items-start xl:items-center">
               <img src={people} />
               <div className="flex flex-col gap-2">
